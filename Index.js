@@ -7,16 +7,13 @@ const app = express();
 // BANCO DE DRAGÕES
 // ========================
 const dragoes = [
-  { id: "DRG-001", nome: "Dragão Rubro", elemento: "Fogo", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#ff4400", imagem: "" },
-  { id: "DRG-002", nome: "Dragão Ártico", elemento: "Gelo", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#00aaff", imagem: "" },
-  { id: "DRG-003", nome: "Dragão Sombrio", elemento: "Trevas", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#333333", imagem: "" },
-  { id: "DRG-004", nome: "Dragão Tempestade", elemento: "Elétrico", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#ffcc00", imagem: "" },
-  { id: "DRG-005", nome: "Dragão Verdante", elemento: "Natureza", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#00aa44", imagem: "" },
-  { id: "DRG-006", nome: "Dragão Abissal", elemento: "Água", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#0044ff", imagem: "" },
-  { id: "DRG-007", nome: "Dragão Sagrado", elemento: "Luz", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#ffdd00", imagem: "" },
-  { id: "DRG-008", nome: "Dragão Cinzeiro", elemento: "Fogo", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#ff6600", imagem: "" },
-  { id: "DRG-009", nome: "Dragão Glacial", elemento: "Gelo", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#aaddff", imagem: "" },
-  { id: "DRG-010", nome: "Dragão Espectral", elemento: "Trevas", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#220033", imagem: "" },
+  { id: "DRG-001", nome: "Dragão Rubro", elemento: "Fogo", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#ff4400", imagem: "https://i.postimg.cc/23pVhpXp/1788984243651.png" },
+  { id: "DRG-002", nome: "Dragão Ártico", elemento: "Gelo", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#00aaff", imagem: "https://i.postimg.cc/XYrn312f/1788984530270.png" },
+  { id: "DRG-003", nome: "Dragão Sombrio", elemento: "Trevas", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#333333", imagem: "https://i.postimg.cc/Hk81FcxR/1788984591812.png" },
+  { id: "DRG-004", nome: "Dragão Tempestade", elemento: "Elétrico", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#ffcc00", imagem: "https://i.postimg.cc/Bbndptk5/1788984638135.png" },
+  { id: "DRG-005", nome: "Dragão Verdante", elemento: "Natureza", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#00aa44", imagem: "https://i.postimg.cc/kMjr4Ft9/1788984783918.png" },
+  { id: "DRG-006", nome: "Dragão Abissal", elemento: "Água", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#0044ff", imagem: "https://i.postimg.cc/DwXRB9pw/1788984820942.png" },
+  { id: "DRG-007", nome: "Dragão Sagrado", elemento: "Luz", raridade: "Comum", hp: 100, atk: 15, def: 10, cor: "#ffdd00", imagem: "https://i.postimg.cc/4y0F1Pz6/1788984876319.png" },
 ];
 
 // ========================
